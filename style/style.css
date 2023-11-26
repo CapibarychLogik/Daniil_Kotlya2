@@ -2,9 +2,29 @@ body {
    background-image: url(https://i.pinimg.com/736x/8c/60/43/8c6043acbd04f2729d50f7f8a9d4114f.jpg); 
 }
 
-.img {
+.ahref {
+    color: white;
+    background-color: rgba(250, 0, 0, 0.8);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.logo {
     height: 100px;
     width: 75px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.insta_logo {
+    height: 40px;
+    width: 45px;
+}
+
+.youtube_logo {
+    height: 40px;
+    width: 60px;
 }
 
 main {
@@ -31,7 +51,7 @@ header a {
 }
 
 div a {
-    align-items: center;
+    margin-left: 35px;
 }
 
 main h2 {
@@ -75,4 +95,16 @@ footer a {
     padding: 5px;
     margin: 10px;
     margin-left: 50px;
+}
+
+.insta {
+    height: 40px;
+    width: 45px;
+    background-color: unset;
+}
+
+.youtube {
+    height: 40px;
+    width: 45px;
+    background-color: unset;
 }
